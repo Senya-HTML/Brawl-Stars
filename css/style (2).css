@@ -1,0 +1,67 @@
+body {
+  background-image: url('../img/ea1061d7024aaeb7485b6eaf2a8a717290a6b0cer1-2048-1152v2_hq.jpg');
+  background-repeat: cover;
+  font-size: 20px;
+}
+
+header {
+  background-image : url('https://pm1.narvii.com/7278/ea508dd04ffcf65fc1c10b21dd1b1fc88b6152far1-1280-720v2_hq.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #fff;
+
+  font-family: sans-serif;
+}
+
+ul{
+list-style: none;
+padding-left: 0;
+margin-bottom: 0px;
+}
+
+li{
+display: inline;
+margin-left: -5px;
+}
+
+a{
+  color: #000000;
+  background-color: #96acf2;
+  padding: 5px;
+  border-left: solid 3px #333;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #00bfff;
+  text-decoration: none;
+  color: #000;
+}
+
+main{
+  height: 100vh;
+  background-color: rgba(192,192,192, 0.5);
+
+}
+
+footer{
+  background-color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.achievment{
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+  /* background-color: rgba(255, 20, 28, 0.5); */
+  background-color: #eb9f6b;
+  background-size: cover;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  text-align: center;
+  color: #000000;
+  transition-duration: 5s;
+}
